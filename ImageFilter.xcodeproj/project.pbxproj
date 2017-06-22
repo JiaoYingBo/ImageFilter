@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		0E0E18011EFA40AC001E4EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E18001EFA40AC001E4EDC /* main.m */; };
 		0E0E18041EFA40AC001E4EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E18031EFA40AC001E4EDC /* AppDelegate.m */; };
-		0E0E180A1EFA40AC001E4EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E18081EFA40AC001E4EDC /* Main.storyboard */; };
 		0E0E180C1EFA40AC001E4EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E180B1EFA40AC001E4EDC /* Assets.xcassets */; };
 		0E0E180F1EFA40AC001E4EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E180D1EFA40AC001E4EDC /* LaunchScreen.storyboard */; };
-		0E0E18181EFA412D001E4EDC /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E18171EFA412D001E4EDC /* RootTabBarController.m */; };
+		0E0E181C1EFA43E0001E4EDC /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E181B1EFA43E0001E4EDC /* RootTabBarController.m */; };
+		0E0E182A1EFA506C001E4EDC /* ScalarFilterParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E18291EFA506C001E4EDC /* ScalarFilterParameter.m */; };
+		0E0E18301EFA53F8001E4EDC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0E182F1EFA53F8001E4EDC /* OpenGLES.framework */; };
+		0E0E18381EFA54D5001E4EDC /* FilteredImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E18371EFA54D5001E4EDC /* FilteredImageView.m */; };
+		0E0E183C1EFA5DDF001E4EDC /* ParameterAdjustmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E183B1EFA5DDF001E4EDC /* ParameterAdjustmentView.m */; };
+		0E0E183F1EFA6196001E4EDC /* LabeledSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E183E1EFA6196001E4EDC /* LabeledSliderView.m */; };
+		0ED528511EFB5D3800D5E511 /* 666.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ED528501EFB5D3800D5E511 /* 666.jpg */; };
+		0ED528571EFBA8B600D5E511 /* FilterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED528541EFBA8B600D5E511 /* FilterDetailViewController.m */; };
+		0ED528581EFBA8B600D5E511 /* FilterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED528561EFBA8B600D5E511 /* FilterListViewController.m */; };
+		0ED5285C1EFBA8BB00D5E511 /* PhotoFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5285B1EFBA8BB00D5E511 /* PhotoFilterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,28 @@
 		0E0E18001EFA40AC001E4EDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E0E18021EFA40AC001E4EDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E0E18031EFA40AC001E4EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0E0E18091EFA40AC001E4EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E0E180B1EFA40AC001E4EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E0E180E1EFA40AC001E4EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E0E18101EFA40AC001E4EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E0E18161EFA412D001E4EDC /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
-		0E0E18171EFA412D001E4EDC /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		0E0E181A1EFA43E0001E4EDC /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		0E0E181B1EFA43E0001E4EDC /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		0E0E18281EFA506C001E4EDC /* ScalarFilterParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalarFilterParameter.h; sourceTree = "<group>"; };
+		0E0E18291EFA506C001E4EDC /* ScalarFilterParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScalarFilterParameter.m; sourceTree = "<group>"; };
+		0E0E182F1EFA53F8001E4EDC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0E0E18361EFA54D5001E4EDC /* FilteredImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilteredImageView.h; sourceTree = "<group>"; };
+		0E0E18371EFA54D5001E4EDC /* FilteredImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilteredImageView.m; sourceTree = "<group>"; };
+		0E0E183A1EFA5DDF001E4EDC /* ParameterAdjustmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParameterAdjustmentView.h; sourceTree = "<group>"; };
+		0E0E183B1EFA5DDF001E4EDC /* ParameterAdjustmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterAdjustmentView.m; sourceTree = "<group>"; };
+		0E0E183D1EFA6196001E4EDC /* LabeledSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabeledSliderView.h; sourceTree = "<group>"; };
+		0E0E183E1EFA6196001E4EDC /* LabeledSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabeledSliderView.m; sourceTree = "<group>"; };
+		0ED528291EFA7BFC00D5E511 /* ParameterAdjustmentDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParameterAdjustmentDelegate.h; sourceTree = "<group>"; };
+		0ED528501EFB5D3800D5E511 /* 666.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 666.jpg; sourceTree = "<group>"; };
+		0ED528531EFBA8B600D5E511 /* FilterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterDetailViewController.h; sourceTree = "<group>"; };
+		0ED528541EFBA8B600D5E511 /* FilterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterDetailViewController.m; sourceTree = "<group>"; };
+		0ED528551EFBA8B600D5E511 /* FilterListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterListViewController.h; sourceTree = "<group>"; };
+		0ED528561EFBA8B600D5E511 /* FilterListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterListViewController.m; sourceTree = "<group>"; };
+		0ED5285A1EFBA8BB00D5E511 /* PhotoFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoFilterViewController.h; sourceTree = "<group>"; };
+		0ED5285B1EFBA8BB00D5E511 /* PhotoFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoFilterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0E18301EFA53F8001E4EDC /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +69,7 @@
 			children = (
 				0E0E17FE1EFA40AC001E4EDC /* ImageFilter */,
 				0E0E17FD1EFA40AC001E4EDC /* Products */,
+				0E0E182E1EFA53F8001E4EDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +84,11 @@
 		0E0E17FE1EFA40AC001E4EDC /* ImageFilter */ = {
 			isa = PBXGroup;
 			children = (
+				0E0E18391EFA5DA7001E4EDC /* View */,
+				0E0E18261EFA4FC1001E4EDC /* Shared */,
+				0E0E18191EFA43CE001E4EDC /* Controller */,
 				0E0E18021EFA40AC001E4EDC /* AppDelegate.h */,
 				0E0E18031EFA40AC001E4EDC /* AppDelegate.m */,
-				0E0E18161EFA412D001E4EDC /* RootTabBarController.h */,
-				0E0E18171EFA412D001E4EDC /* RootTabBarController.m */,
-				0E0E18081EFA40AC001E4EDC /* Main.storyboard */,
-				0E0E180B1EFA40AC001E4EDC /* Assets.xcassets */,
-				0E0E180D1EFA40AC001E4EDC /* LaunchScreen.storyboard */,
-				0E0E18101EFA40AC001E4EDC /* Info.plist */,
 				0E0E17FF1EFA40AC001E4EDC /* Supporting Files */,
 			);
 			path = ImageFilter;
@@ -74,9 +97,75 @@
 		0E0E17FF1EFA40AC001E4EDC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0ED528501EFB5D3800D5E511 /* 666.jpg */,
+				0E0E180B1EFA40AC001E4EDC /* Assets.xcassets */,
+				0E0E180D1EFA40AC001E4EDC /* LaunchScreen.storyboard */,
+				0E0E18101EFA40AC001E4EDC /* Info.plist */,
 				0E0E18001EFA40AC001E4EDC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E0E18191EFA43CE001E4EDC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0ED528591EFBA8BB00D5E511 /* Photo Filters */,
+				0ED528521EFBA8B600D5E511 /* Tweakable Filters */,
+				0E0E181A1EFA43E0001E4EDC /* RootTabBarController.h */,
+				0E0E181B1EFA43E0001E4EDC /* RootTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E0E18261EFA4FC1001E4EDC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0E0E18281EFA506C001E4EDC /* ScalarFilterParameter.h */,
+				0E0E18291EFA506C001E4EDC /* ScalarFilterParameter.m */,
+				0E0E18361EFA54D5001E4EDC /* FilteredImageView.h */,
+				0E0E18371EFA54D5001E4EDC /* FilteredImageView.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0E0E182E1EFA53F8001E4EDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E0E182F1EFA53F8001E4EDC /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E0E18391EFA5DA7001E4EDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0ED528291EFA7BFC00D5E511 /* ParameterAdjustmentDelegate.h */,
+				0E0E183A1EFA5DDF001E4EDC /* ParameterAdjustmentView.h */,
+				0E0E183B1EFA5DDF001E4EDC /* ParameterAdjustmentView.m */,
+				0E0E183D1EFA6196001E4EDC /* LabeledSliderView.h */,
+				0E0E183E1EFA6196001E4EDC /* LabeledSliderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0ED528521EFBA8B600D5E511 /* Tweakable Filters */ = {
+			isa = PBXGroup;
+			children = (
+				0ED528531EFBA8B600D5E511 /* FilterDetailViewController.h */,
+				0ED528541EFBA8B600D5E511 /* FilterDetailViewController.m */,
+				0ED528551EFBA8B600D5E511 /* FilterListViewController.h */,
+				0ED528561EFBA8B600D5E511 /* FilterListViewController.m */,
+			);
+			path = "Tweakable Filters";
+			sourceTree = "<group>";
+		};
+		0ED528591EFBA8BB00D5E511 /* Photo Filters */ = {
+			isa = PBXGroup;
+			children = (
+				0ED5285A1EFBA8BB00D5E511 /* PhotoFilterViewController.h */,
+				0ED5285B1EFBA8BB00D5E511 /* PhotoFilterViewController.m */,
+			);
+			path = "Photo Filters";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +226,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ED528511EFB5D3800D5E511 /* 666.jpg in Resources */,
 				0E0E180F1EFA40AC001E4EDC /* LaunchScreen.storyboard in Resources */,
 				0E0E180C1EFA40AC001E4EDC /* Assets.xcassets in Resources */,
-				0E0E180A1EFA40AC001E4EDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +239,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E0E18181EFA412D001E4EDC /* RootTabBarController.m in Sources */,
+				0ED528581EFBA8B600D5E511 /* FilterListViewController.m in Sources */,
+				0ED5285C1EFBA8BB00D5E511 /* PhotoFilterViewController.m in Sources */,
+				0E0E183F1EFA6196001E4EDC /* LabeledSliderView.m in Sources */,
+				0E0E181C1EFA43E0001E4EDC /* RootTabBarController.m in Sources */,
+				0E0E18381EFA54D5001E4EDC /* FilteredImageView.m in Sources */,
 				0E0E18041EFA40AC001E4EDC /* AppDelegate.m in Sources */,
 				0E0E18011EFA40AC001E4EDC /* main.m in Sources */,
+				0E0E182A1EFA506C001E4EDC /* ScalarFilterParameter.m in Sources */,
+				0E0E183C1EFA5DDF001E4EDC /* ParameterAdjustmentView.m in Sources */,
+				0ED528571EFBA8B600D5E511 /* FilterDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0E0E18081EFA40AC001E4EDC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0E0E18091EFA40AC001E4EDC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0E0E180D1EFA40AC001E4EDC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +360,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageFilter",
+				);
 				INFOPLIST_FILE = ImageFilter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -284,6 +376,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageFilter",
+				);
 				INFOPLIST_FILE = ImageFilter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -311,6 +407,7 @@
 				0E0E18151EFA40AC001E4EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
