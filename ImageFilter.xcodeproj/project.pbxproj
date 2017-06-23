@@ -21,6 +21,7 @@
 		0ED528571EFBA8B600D5E511 /* FilterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED528541EFBA8B600D5E511 /* FilterDetailViewController.m */; };
 		0ED528581EFBA8B600D5E511 /* FilterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED528561EFBA8B600D5E511 /* FilterListViewController.m */; };
 		0ED5285C1EFBA8BB00D5E511 /* PhotoFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5285B1EFBA8BB00D5E511 /* PhotoFilterViewController.m */; };
+		0ED5285F1EFBAB9400D5E511 /* PhotoFilterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5285E1EFBAB9400D5E511 /* PhotoFilterCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		0ED528561EFBA8B600D5E511 /* FilterListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterListViewController.m; sourceTree = "<group>"; };
 		0ED5285A1EFBA8BB00D5E511 /* PhotoFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoFilterViewController.h; sourceTree = "<group>"; };
 		0ED5285B1EFBA8BB00D5E511 /* PhotoFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoFilterViewController.m; sourceTree = "<group>"; };
+		0ED5285D1EFBAB9400D5E511 /* PhotoFilterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoFilterCollectionViewCell.h; sourceTree = "<group>"; };
+		0ED5285E1EFBAB9400D5E511 /* PhotoFilterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoFilterCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 				0E0E183B1EFA5DDF001E4EDC /* ParameterAdjustmentView.m */,
 				0E0E183D1EFA6196001E4EDC /* LabeledSliderView.h */,
 				0E0E183E1EFA6196001E4EDC /* LabeledSliderView.m */,
+				0ED5285D1EFBAB9400D5E511 /* PhotoFilterCollectionViewCell.h */,
+				0ED5285E1EFBAB9400D5E511 /* PhotoFilterCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,10 +156,10 @@
 		0ED528521EFBA8B600D5E511 /* Tweakable Filters */ = {
 			isa = PBXGroup;
 			children = (
-				0ED528531EFBA8B600D5E511 /* FilterDetailViewController.h */,
-				0ED528541EFBA8B600D5E511 /* FilterDetailViewController.m */,
 				0ED528551EFBA8B600D5E511 /* FilterListViewController.h */,
 				0ED528561EFBA8B600D5E511 /* FilterListViewController.m */,
+				0ED528531EFBA8B600D5E511 /* FilterDetailViewController.h */,
+				0ED528541EFBA8B600D5E511 /* FilterDetailViewController.m */,
 			);
 			path = "Tweakable Filters";
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 				0ED5285C1EFBA8BB00D5E511 /* PhotoFilterViewController.m in Sources */,
 				0E0E183F1EFA6196001E4EDC /* LabeledSliderView.m in Sources */,
 				0E0E181C1EFA43E0001E4EDC /* RootTabBarController.m in Sources */,
+				0ED5285F1EFBAB9400D5E511 /* PhotoFilterCollectionViewCell.m in Sources */,
 				0E0E18381EFA54D5001E4EDC /* FilteredImageView.m in Sources */,
 				0E0E18041EFA40AC001E4EDC /* AppDelegate.m in Sources */,
 				0E0E18011EFA40AC001E4EDC /* main.m in Sources */,
