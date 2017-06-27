@@ -31,6 +31,9 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
+    self.tabBarController.tabBar.barStyle = UIBarStyleDefault;
+    
     [self applyConstraintsForInterfaceOrientation:[[UIApplication sharedApplication] statusBarOrientation]];
 }
 

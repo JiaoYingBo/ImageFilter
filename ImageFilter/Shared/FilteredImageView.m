@@ -42,6 +42,7 @@
     if (self.ciContext && self.inputImage && self.filter) {
         CIImage *inputCIImage = [CIImage imageWithCGImage:self.inputImage.CGImage];
         [self.filter setValue:inputCIImage forKey:kCIInputImageKey];
+        
         if (self.filter.outputImage) {
             [self clearBackground];
             
