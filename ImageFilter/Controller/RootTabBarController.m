@@ -22,6 +22,8 @@
 }
 
 - (void)addChildViewControllers {
+//    self.tabBar.tintColor = [UIColor blackColor];
+    
     FilterListViewController *firstTabVC = [[FilterListViewController alloc] init];
     PhotoFilterViewController *secondTabVC = [[PhotoFilterViewController alloc] init];
     
@@ -36,7 +38,6 @@
 }
 
 - (void)addChildVC:(UIViewController *)vc title:(NSString *)title imageName:(NSString *)imageName {
-    self.tabBar.tintColor = [UIColor blackColor];
     vc.tabBarItem.title = title;
     vc.tabBarItem.image = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAutomatic];
 //    vc.tabBarItem.selectedImage = [[UIImage imageNamed:[imageName stringByAppendingString:@"_selected"]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
