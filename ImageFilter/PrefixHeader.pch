@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  ImageFilter
+//
+//  Created by 焦英博 on 2017/8/23.
+//  Copyright © 2017年 YB. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define source_image @""
+
+#endif /* PrefixHeader_pch */

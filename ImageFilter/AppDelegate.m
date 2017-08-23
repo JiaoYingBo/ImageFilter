@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "RootTabBarController.h"
+#import "SelectImageController.h"
 
 @interface AppDelegate ()
 
@@ -17,10 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    RootTabBarController *tabbar = [[RootTabBarController alloc] init];
+    SelectImageController *select = [[SelectImageController alloc] init];
     self.window = [[UIWindow alloc] init];
     self.window.frame = [[UIScreen mainScreen] bounds];
-    self.window.rootViewController = tabbar;
+    self.window.rootViewController = select;
     [self.window makeKeyAndVisible];
     return YES;
 }

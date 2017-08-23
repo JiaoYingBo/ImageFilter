@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="YgW-C7-wyT" customClass="VideoBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cyl-r7-hQF">
+                    <rect key="frame" x="305" y="0.0" width="70" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="xZy-Ow-7xa"/>
+                    </constraints>
+                    <state key="normal" title="完成">
+                        <color key="titleColor" red="0.074509806930000005" green="0.82352942230000004" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="disabled">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="completionBtnClick:" destination="YgW-C7-wyT" eventType="touchUpInside" id="EIW-bD-JtP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Cyl-r7-hQF" secondAttribute="bottom" id="IJf-Po-PYV"/>
+                <constraint firstItem="Cyl-r7-hQF" firstAttribute="top" secondItem="YgW-C7-wyT" secondAttribute="top" id="Ydo-h8-A0k"/>
+                <constraint firstAttribute="trailing" secondItem="Cyl-r7-hQF" secondAttribute="trailing" id="ptC-HE-TlY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="completionBtn" destination="Cyl-r7-hQF" id="UOI-rt-4v9"/>
+            </connections>
+            <point key="canvasLocation" x="-143" y="-342"/>
+        </view>
+    </objects>
+</document>
