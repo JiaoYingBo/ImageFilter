@@ -9,6 +9,8 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#define source_image @""
+#import "CommonTools.h"
+
+#define source_image [CommonTools shared].image
 
 #endif /* PrefixHeader_pch */

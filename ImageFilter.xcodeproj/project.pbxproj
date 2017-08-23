@@ -11,7 +11,6 @@
 		0E0E18041EFA40AC001E4EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E18031EFA40AC001E4EDC /* AppDelegate.m */; };
 		0E0E180C1EFA40AC001E4EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E180B1EFA40AC001E4EDC /* Assets.xcassets */; };
 		0E0E180F1EFA40AC001E4EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E180D1EFA40AC001E4EDC /* LaunchScreen.storyboard */; };
-		0E0E181C1EFA43E0001E4EDC /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E181B1EFA43E0001E4EDC /* RootTabBarController.m */; };
 		0E0E182A1EFA506C001E4EDC /* ScalarFilterParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E18291EFA506C001E4EDC /* ScalarFilterParameter.m */; };
 		0E0E18301EFA53F8001E4EDC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0E182F1EFA53F8001E4EDC /* OpenGLES.framework */; };
 		0E0E18381EFA54D5001E4EDC /* FilteredImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E18371EFA54D5001E4EDC /* FilteredImageView.m */; };
@@ -52,8 +51,10 @@
 		0E2478D01F4D848B00784965 /* VideoBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2478AD1F4D848B00784965 /* VideoBottomView.xib */; };
 		0E2478D11F4D848B00784965 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478AF1F4D848B00784965 /* VideoController.m */; };
 		0E2478D21F4D848B00784965 /* VideoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2478B01F4D848B00784965 /* VideoController.xib */; };
-		0E2478D61F4D855400784965 /* SelectImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478D41F4D855400784965 /* SelectImageController.m */; };
-		0E2478D71F4D855400784965 /* SelectImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2478D51F4D855400784965 /* SelectImageController.xib */; };
+		0E2478DF1F4D9D1400784965 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478DB1F4D9D1400784965 /* RootTabBarController.m */; };
+		0E2478E01F4D9D1400784965 /* SelectImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478DD1F4D9D1400784965 /* SelectImageController.m */; };
+		0E2478E11F4D9D1400784965 /* SelectImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2478DE1F4D9D1400784965 /* SelectImageController.xib */; };
+		0E2478E41F4D9DDD00784965 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478E31F4D9DDD00784965 /* CommonTools.m */; };
 		0ED528571EFBA8B600D5E511 /* FilterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED528541EFBA8B600D5E511 /* FilterDetailViewController.m */; };
 		0ED528581EFBA8B600D5E511 /* FilterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED528561EFBA8B600D5E511 /* FilterListViewController.m */; };
 		0ED5285C1EFBA8BB00D5E511 /* PhotoFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5285B1EFBA8BB00D5E511 /* PhotoFilterViewController.m */; };
@@ -68,8 +69,6 @@
 		0E0E180B1EFA40AC001E4EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E0E180E1EFA40AC001E4EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E0E18101EFA40AC001E4EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E0E181A1EFA43E0001E4EDC /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
-		0E0E181B1EFA43E0001E4EDC /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
 		0E0E18281EFA506C001E4EDC /* ScalarFilterParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalarFilterParameter.h; sourceTree = "<group>"; };
 		0E0E18291EFA506C001E4EDC /* ScalarFilterParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScalarFilterParameter.m; sourceTree = "<group>"; };
 		0E0E182F1EFA53F8001E4EDC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -131,10 +130,14 @@
 		0E2478AE1F4D848B00784965 /* VideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
 		0E2478AF1F4D848B00784965 /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
 		0E2478B01F4D848B00784965 /* VideoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoController.xib; sourceTree = "<group>"; };
-		0E2478D31F4D855400784965 /* SelectImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectImageController.h; sourceTree = "<group>"; };
-		0E2478D41F4D855400784965 /* SelectImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectImageController.m; sourceTree = "<group>"; };
-		0E2478D51F4D855400784965 /* SelectImageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectImageController.xib; sourceTree = "<group>"; };
 		0E2478D81F4D9AC200784965 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0E2478DA1F4D9D1400784965 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		0E2478DB1F4D9D1400784965 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		0E2478DC1F4D9D1400784965 /* SelectImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectImageController.h; sourceTree = "<group>"; };
+		0E2478DD1F4D9D1400784965 /* SelectImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectImageController.m; sourceTree = "<group>"; };
+		0E2478DE1F4D9D1400784965 /* SelectImageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectImageController.xib; sourceTree = "<group>"; };
+		0E2478E21F4D9DDD00784965 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
+		0E2478E31F4D9DDD00784965 /* CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
 		0ED528291EFA7BFC00D5E511 /* ParameterAdjustmentDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParameterAdjustmentDelegate.h; sourceTree = "<group>"; };
 		0ED528531EFBA8B600D5E511 /* FilterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterDetailViewController.h; sourceTree = "<group>"; };
 		0ED528541EFBA8B600D5E511 /* FilterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterDetailViewController.m; sourceTree = "<group>"; };
@@ -178,6 +181,7 @@
 		0E0E17FE1EFA40AC001E4EDC /* ImageFilter */ = {
 			isa = PBXGroup;
 			children = (
+				0E2478D91F4D9CEB00784965 /* Main */,
 				0E24787C1F4D848B00784965 /* Photos */,
 				0E0E18391EFA5DA7001E4EDC /* View */,
 				0E0E18261EFA4FC1001E4EDC /* Shared */,
@@ -207,11 +211,6 @@
 			children = (
 				0ED528591EFBA8BB00D5E511 /* Photo Filters */,
 				0ED528521EFBA8B600D5E511 /* Tweakable Filters */,
-				0E0E181A1EFA43E0001E4EDC /* RootTabBarController.h */,
-				0E0E181B1EFA43E0001E4EDC /* RootTabBarController.m */,
-				0E2478D31F4D855400784965 /* SelectImageController.h */,
-				0E2478D41F4D855400784965 /* SelectImageController.m */,
-				0E2478D51F4D855400784965 /* SelectImageController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -315,6 +314,20 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		0E2478D91F4D9CEB00784965 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0E2478DA1F4D9D1400784965 /* RootTabBarController.h */,
+				0E2478DB1F4D9D1400784965 /* RootTabBarController.m */,
+				0E2478DC1F4D9D1400784965 /* SelectImageController.h */,
+				0E2478DD1F4D9D1400784965 /* SelectImageController.m */,
+				0E2478DE1F4D9D1400784965 /* SelectImageController.xib */,
+				0E2478E21F4D9DDD00784965 /* CommonTools.h */,
+				0E2478E31F4D9DDD00784965 /* CommonTools.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		0ED528521EFBA8B600D5E511 /* Tweakable Filters */ = {
 			isa = PBXGroup;
 			children = (
@@ -409,7 +422,7 @@
 				0E2478C51F4D848B00784965 /* as_icon_back@3x.png in Resources */,
 				0E2478BB1F4D848B00784965 /* AssetTopView.xib in Resources */,
 				0E2478C41F4D848B00784965 /* as_icon_back@2x.png in Resources */,
-				0E2478D71F4D855400784965 /* SelectImageController.xib in Resources */,
+				0E2478E11F4D9D1400784965 /* SelectImageController.xib in Resources */,
 				0E2478CA1F4D848B00784965 /* as_playBtn_normal@2x.png in Resources */,
 				0E2478B31F4D848B00784965 /* AlbumListCell.xib in Resources */,
 				0E2478C71F4D848B00784965 /* as_photo_sel_big@2x.png in Resources */,
@@ -426,9 +439,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2478E41F4D9DDD00784965 /* CommonTools.m in Sources */,
 				0E2478D11F4D848B00784965 /* VideoController.m in Sources */,
 				0ED528581EFBA8B600D5E511 /* FilterListViewController.m in Sources */,
 				0E2478BF1F4D848B00784965 /* BaseController.m in Sources */,
+				0E2478DF1F4D9D1400784965 /* RootTabBarController.m in Sources */,
 				0E2478B11F4D848B00784965 /* AlbumController.m in Sources */,
 				0E2478CF1F4D848B00784965 /* VideoBottomView.m in Sources */,
 				0ED5285C1EFBA8BB00D5E511 /* PhotoFilterViewController.m in Sources */,
@@ -436,14 +451,13 @@
 				0E0E183F1EFA6196001E4EDC /* LabeledSliderView.m in Sources */,
 				0E2478B51F4D848B00784965 /* AssetBottomView.m in Sources */,
 				0E2478BC1F4D848B00784965 /* AssetViewController.m in Sources */,
-				0E0E181C1EFA43E0001E4EDC /* RootTabBarController.m in Sources */,
 				0E2478CE1F4D848B00784965 /* PhotoController.m in Sources */,
 				0ED5285F1EFBAB9400D5E511 /* PhotoFilterCollectionViewCell.m in Sources */,
 				0E0E18381EFA54D5001E4EDC /* FilteredImageView.m in Sources */,
 				0E2478B41F4D848B00784965 /* AppearanceController.m in Sources */,
 				0E0E18041EFA40AC001E4EDC /* AppDelegate.m in Sources */,
 				0E2478BD1F4D848B00784965 /* ASTakePhotoCell.m in Sources */,
-				0E2478D61F4D855400784965 /* SelectImageController.m in Sources */,
+				0E2478E01F4D9D1400784965 /* SelectImageController.m in Sources */,
 				0E0E18011EFA40AC001E4EDC /* main.m in Sources */,
 				0E2478C31F4D848B00784965 /* ImagePickerController.m in Sources */,
 				0E2478BA1F4D848B00784965 /* AssetTopView.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import "FilterListViewController.h"
 #import "FilterDetailViewController.h"
+#import "SelectImageController.h"
 
 @interface FilterListViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -34,6 +35,9 @@
 
 - (void)setupUI {
     self.navigationItem.title = @"Core Image Filters";
+    
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"选择图片" style:UIBarButtonItemStylePlain target:self action:@selector(rightClick)];
+    self.navigationItem.rightBarButtonItem = item;
     
     UITableView *tableView = [[UITableView alloc] init];
     tableView.dataSource = self;
@@ -68,6 +72,17 @@
     FilterDetailViewController *vc = [[FilterDetailViewController alloc] init];
     vc.filterName = self.filters[indexPath.row][0];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+#pragma mark - actions
+
+- (void)rightClick {
+    UIWindow *window = [[UIApplication sharedApplication] keyWindow];
+    SelectImageController *select = [[SelectImageController alloc] init];
+    window.rootViewController = select;
+    [UIView animateWithDuration:1 animations:^{
+        [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:window cache:YES];
+    }];
 }
 
 #pragma mark - getter

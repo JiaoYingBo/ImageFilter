@@ -31,6 +31,8 @@
 #pragma mark - ImagePickerControllerDelegate
 
 - (void)imagePickerController:(ImagePickerController *)controller disFinishPickingThumbImages:(NSArray<UIImage *> *)thumbImages originalImages:(NSArray<UIImage *> *)originalImages infos:(NSArray<NSDictionary *> *)infos {
+    [CommonTools shared].image = originalImages[0];
+    
     UIWindow *window = [[UIApplication sharedApplication] keyWindow];
     RootTabBarController *tabbar = [[RootTabBarController alloc] init];
     window.rootViewController = tabbar;

@@ -97,7 +97,7 @@
 - (FilteredImageView *)filteredImageView {
     if (!_filteredImageView) {
         _filteredImageView = [[FilteredImageView alloc] init];
-        _filteredImageView.inputImage = [UIImage imageNamed:@"666.jpg"];
+        _filteredImageView.inputImage = source_image;
         _filteredImageView.filter = self.filters[0];
         _filteredImageView.contentMode = UIViewContentModeScaleAspectFit;
         _filteredImageView.clipsToBounds = YES;

@@ -65,7 +65,7 @@
 
 - (void)addSubviews {
     self.filteredImageView = [[FilteredImageView alloc] initWithFrame:self.view.bounds];
-    self.filteredImageView.inputImage = [UIImage imageNamed:@"666.jpg"];
+    self.filteredImageView.inputImage = source_image;
     self.filteredImageView.filter = self.filter;
     self.filteredImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.filteredImageView.clipsToBounds = YES;
