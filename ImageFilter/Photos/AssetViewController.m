@@ -202,7 +202,7 @@
             if (isSelected) {
                 if ([AssetSelectionUtil sharedUtil].selectedPhotoIndexes.count == [AssetSelectionUtil sharedUtil].maxImagesCount) {
                     
-                    UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:@"最多只能选择5张照片" preferredStyle:UIAlertControllerStyleAlert];
+                    UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:[NSString stringWithFormat:@"最多只能选择%td张照片", [AssetSelectionUtil sharedUtil].maxImagesCount] preferredStyle:UIAlertControllerStyleAlert];
                     UIAlertAction *action1 = [UIAlertAction actionWithTitle:@"我知道了" style:UIAlertActionStyleDefault handler:nil];
                     [alert addAction:action1];
                     [weakSelf presentViewController:alert animated:YES completion:nil];

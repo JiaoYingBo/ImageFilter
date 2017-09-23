@@ -16,7 +16,6 @@
 		0E0E18381EFA54D5001E4EDC /* FilteredImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E18371EFA54D5001E4EDC /* FilteredImageView.m */; };
 		0E0E183C1EFA5DDF001E4EDC /* ParameterAdjustmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E183B1EFA5DDF001E4EDC /* ParameterAdjustmentView.m */; };
 		0E0E183F1EFA6196001E4EDC /* LabeledSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E183E1EFA6196001E4EDC /* LabeledSliderView.m */; };
-		0E24787B1F4D702A00784965 /* 666.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E24787A1F4D702A00784965 /* 666.jpg */; };
 		0E2478B11F4D848B00784965 /* AlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24787E1F4D848B00784965 /* AlbumController.m */; };
 		0E2478B21F4D848B00784965 /* AlbumListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478801F4D848B00784965 /* AlbumListCell.m */; };
 		0E2478B31F4D848B00784965 /* AlbumListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2478811F4D848B00784965 /* AlbumListCell.xib */; };
@@ -55,6 +54,32 @@
 		0E2478E01F4D9D1400784965 /* SelectImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478DD1F4D9D1400784965 /* SelectImageController.m */; };
 		0E2478E11F4D9D1400784965 /* SelectImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2478DE1F4D9D1400784965 /* SelectImageController.xib */; };
 		0E2478E41F4D9DDD00784965 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478E31F4D9DDD00784965 /* CommonTools.m */; };
+		0E2479171F4DA58000784965 /* IFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478E71F4DA58000784965 /* IFBaseViewController.m */; };
+		0E2479181F4DA58000784965 /* IFEditImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478E91F4DA58000784965 /* IFEditImageController.m */; };
+		0E2479191F4DA58000784965 /* IFEditImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2478EA1F4DA58000784965 /* IFEditImageController.xib */; };
+		0E24791A1F4DA58000784965 /* IFEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478EC1F4DA58000784965 /* IFEditorViewController.m */; };
+		0E24791B1F4DA58000784965 /* IFEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2478ED1F4DA58000784965 /* IFEditorViewController.xib */; };
+		0E24791C1F4DA58000784965 /* IFImageEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478EF1F4DA58000784965 /* IFImageEditorController.m */; };
+		0E24791D1F4DA58000784965 /* IFTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478F11F4DA58000784965 /* IFTextViewController.m */; };
+		0E24791E1F4DA58000784965 /* IFTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2478F21F4DA58000784965 /* IFTextViewController.xib */; };
+		0E24791F1F4DA58000784965 /* IFImagePropertyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478F51F4DA58000784965 /* IFImagePropertyModel.m */; };
+		0E2479201F4DA58000784965 /* IFFilterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478F91F4DA58000784965 /* IFFilterUtils.m */; };
+		0E2479211F4DA58000784965 /* IFImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478FC1F4DA58000784965 /* IFImageUtils.m */; };
+		0E2479221F4DA58000784965 /* IFTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2478FE1F4DA58000784965 /* IFTextUtils.m */; };
+		0E2479231F4DA58000784965 /* IFEditImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2479011F4DA58000784965 /* IFEditImageView.m */; };
+		0E2479241F4DA58000784965 /* IFEditImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2479021F4DA58000784965 /* IFEditImageView.xib */; };
+		0E2479251F4DA58000784965 /* IFEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2479041F4DA58000784965 /* IFEditView.m */; };
+		0E2479261F4DA58000784965 /* IFEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2479051F4DA58000784965 /* IFEditView.xib */; };
+		0E2479271F4DA58000784965 /* IFFilterToolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2479071F4DA58000784965 /* IFFilterToolCell.m */; };
+		0E2479281F4DA58000784965 /* IFFilterToolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2479081F4DA58000784965 /* IFFilterToolCell.xib */; };
+		0E2479291F4DA58000784965 /* IFImageClipperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24790A1F4DA58000784965 /* IFImageClipperView.m */; };
+		0E24792A1F4DA58000784965 /* IFImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24790C1F4DA58000784965 /* IFImageCollectionCell.m */; };
+		0E24792B1F4DA58000784965 /* IFImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E24790D1F4DA58000784965 /* IFImageCollectionCell.xib */; };
+		0E24792C1F4DA58000784965 /* IFImageEditorToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24790F1F4DA58000784965 /* IFImageEditorToolView.m */; };
+		0E24792D1F4DA58000784965 /* IFImageEditorToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2479101F4DA58000784965 /* IFImageEditorToolView.xib */; };
+		0E24792E1F4DA58000784965 /* IFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2479121F4DA58000784965 /* IFImageView.m */; };
+		0E24792F1F4DA58000784965 /* IFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2479141F4DA58000784965 /* IFTextView.m */; };
+		0E2479301F4DA58000784965 /* YBPhotoCutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2479161F4DA58000784965 /* YBPhotoCutView.m */; };
 		0ED528571EFBA8B600D5E511 /* FilterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED528541EFBA8B600D5E511 /* FilterDetailViewController.m */; };
 		0ED528581EFBA8B600D5E511 /* FilterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED528561EFBA8B600D5E511 /* FilterListViewController.m */; };
 		0ED5285C1EFBA8BB00D5E511 /* PhotoFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5285B1EFBA8BB00D5E511 /* PhotoFilterViewController.m */; };
@@ -78,7 +103,6 @@
 		0E0E183B1EFA5DDF001E4EDC /* ParameterAdjustmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterAdjustmentView.m; sourceTree = "<group>"; };
 		0E0E183D1EFA6196001E4EDC /* LabeledSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabeledSliderView.h; sourceTree = "<group>"; };
 		0E0E183E1EFA6196001E4EDC /* LabeledSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabeledSliderView.m; sourceTree = "<group>"; };
-		0E24787A1F4D702A00784965 /* 666.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 666.jpg; sourceTree = "<group>"; };
 		0E24787D1F4D848B00784965 /* AlbumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumController.h; sourceTree = "<group>"; };
 		0E24787E1F4D848B00784965 /* AlbumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumController.m; sourceTree = "<group>"; };
 		0E24787F1F4D848B00784965 /* AlbumListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumListCell.h; sourceTree = "<group>"; };
@@ -138,6 +162,52 @@
 		0E2478DE1F4D9D1400784965 /* SelectImageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectImageController.xib; sourceTree = "<group>"; };
 		0E2478E21F4D9DDD00784965 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
 		0E2478E31F4D9DDD00784965 /* CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
+		0E2478E61F4DA58000784965 /* IFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFBaseViewController.h; sourceTree = "<group>"; };
+		0E2478E71F4DA58000784965 /* IFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFBaseViewController.m; sourceTree = "<group>"; };
+		0E2478E81F4DA58000784965 /* IFEditImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFEditImageController.h; sourceTree = "<group>"; };
+		0E2478E91F4DA58000784965 /* IFEditImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFEditImageController.m; sourceTree = "<group>"; };
+		0E2478EA1F4DA58000784965 /* IFEditImageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IFEditImageController.xib; sourceTree = "<group>"; };
+		0E2478EB1F4DA58000784965 /* IFEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFEditorViewController.h; sourceTree = "<group>"; };
+		0E2478EC1F4DA58000784965 /* IFEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFEditorViewController.m; sourceTree = "<group>"; };
+		0E2478ED1F4DA58000784965 /* IFEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IFEditorViewController.xib; sourceTree = "<group>"; };
+		0E2478EE1F4DA58000784965 /* IFImageEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFImageEditorController.h; sourceTree = "<group>"; };
+		0E2478EF1F4DA58000784965 /* IFImageEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFImageEditorController.m; sourceTree = "<group>"; };
+		0E2478F01F4DA58000784965 /* IFTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTextViewController.h; sourceTree = "<group>"; };
+		0E2478F11F4DA58000784965 /* IFTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTextViewController.m; sourceTree = "<group>"; };
+		0E2478F21F4DA58000784965 /* IFTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IFTextViewController.xib; sourceTree = "<group>"; };
+		0E2478F41F4DA58000784965 /* IFImagePropertyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFImagePropertyModel.h; sourceTree = "<group>"; };
+		0E2478F51F4DA58000784965 /* IFImagePropertyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFImagePropertyModel.m; sourceTree = "<group>"; };
+		0E2478F71F4DA58000784965 /* IFColorMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFColorMatrix.h; sourceTree = "<group>"; };
+		0E2478F81F4DA58000784965 /* IFFilterUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFilterUtils.h; sourceTree = "<group>"; };
+		0E2478F91F4DA58000784965 /* IFFilterUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFilterUtils.m; sourceTree = "<group>"; };
+		0E2478FA1F4DA58000784965 /* IFImageEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFImageEditor.h; sourceTree = "<group>"; };
+		0E2478FB1F4DA58000784965 /* IFImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFImageUtils.h; sourceTree = "<group>"; };
+		0E2478FC1F4DA58000784965 /* IFImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFImageUtils.m; sourceTree = "<group>"; };
+		0E2478FD1F4DA58000784965 /* IFTextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTextUtils.h; sourceTree = "<group>"; };
+		0E2478FE1F4DA58000784965 /* IFTextUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTextUtils.m; sourceTree = "<group>"; };
+		0E2479001F4DA58000784965 /* IFEditImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFEditImageView.h; sourceTree = "<group>"; };
+		0E2479011F4DA58000784965 /* IFEditImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFEditImageView.m; sourceTree = "<group>"; };
+		0E2479021F4DA58000784965 /* IFEditImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IFEditImageView.xib; sourceTree = "<group>"; };
+		0E2479031F4DA58000784965 /* IFEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFEditView.h; sourceTree = "<group>"; };
+		0E2479041F4DA58000784965 /* IFEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFEditView.m; sourceTree = "<group>"; };
+		0E2479051F4DA58000784965 /* IFEditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IFEditView.xib; sourceTree = "<group>"; };
+		0E2479061F4DA58000784965 /* IFFilterToolCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFilterToolCell.h; sourceTree = "<group>"; };
+		0E2479071F4DA58000784965 /* IFFilterToolCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFilterToolCell.m; sourceTree = "<group>"; };
+		0E2479081F4DA58000784965 /* IFFilterToolCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IFFilterToolCell.xib; sourceTree = "<group>"; };
+		0E2479091F4DA58000784965 /* IFImageClipperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFImageClipperView.h; sourceTree = "<group>"; };
+		0E24790A1F4DA58000784965 /* IFImageClipperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFImageClipperView.m; sourceTree = "<group>"; };
+		0E24790B1F4DA58000784965 /* IFImageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFImageCollectionCell.h; sourceTree = "<group>"; };
+		0E24790C1F4DA58000784965 /* IFImageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFImageCollectionCell.m; sourceTree = "<group>"; };
+		0E24790D1F4DA58000784965 /* IFImageCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IFImageCollectionCell.xib; sourceTree = "<group>"; };
+		0E24790E1F4DA58000784965 /* IFImageEditorToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFImageEditorToolView.h; sourceTree = "<group>"; };
+		0E24790F1F4DA58000784965 /* IFImageEditorToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFImageEditorToolView.m; sourceTree = "<group>"; };
+		0E2479101F4DA58000784965 /* IFImageEditorToolView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IFImageEditorToolView.xib; sourceTree = "<group>"; };
+		0E2479111F4DA58000784965 /* IFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFImageView.h; sourceTree = "<group>"; };
+		0E2479121F4DA58000784965 /* IFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFImageView.m; sourceTree = "<group>"; };
+		0E2479131F4DA58000784965 /* IFTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTextView.h; sourceTree = "<group>"; };
+		0E2479141F4DA58000784965 /* IFTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTextView.m; sourceTree = "<group>"; };
+		0E2479151F4DA58000784965 /* YBPhotoCutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPhotoCutView.h; sourceTree = "<group>"; };
+		0E2479161F4DA58000784965 /* YBPhotoCutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPhotoCutView.m; sourceTree = "<group>"; };
 		0ED528291EFA7BFC00D5E511 /* ParameterAdjustmentDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParameterAdjustmentDelegate.h; sourceTree = "<group>"; };
 		0ED528531EFBA8B600D5E511 /* FilterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterDetailViewController.h; sourceTree = "<group>"; };
 		0ED528541EFBA8B600D5E511 /* FilterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterDetailViewController.m; sourceTree = "<group>"; };
@@ -181,8 +251,9 @@
 		0E0E17FE1EFA40AC001E4EDC /* ImageFilter */ = {
 			isa = PBXGroup;
 			children = (
-				0E2478D91F4D9CEB00784965 /* Main */,
+				0E2478E51F4DA58000784965 /* ImageFilter */,
 				0E24787C1F4D848B00784965 /* Photos */,
+				0E2478D91F4D9CEB00784965 /* Main */,
 				0E0E18391EFA5DA7001E4EDC /* View */,
 				0E0E18261EFA4FC1001E4EDC /* Shared */,
 				0E0E18191EFA43CE001E4EDC /* Controller */,
@@ -197,7 +268,6 @@
 			isa = PBXGroup;
 			children = (
 				0E0E180B1EFA40AC001E4EDC /* Assets.xcassets */,
-				0E24787A1F4D702A00784965 /* 666.jpg */,
 				0E0E180D1EFA40AC001E4EDC /* LaunchScreen.storyboard */,
 				0E0E18101EFA40AC001E4EDC /* Info.plist */,
 				0E0E18001EFA40AC001E4EDC /* main.m */,
@@ -328,6 +398,83 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		0E2478E51F4DA58000784965 /* ImageFilter */ = {
+			isa = PBXGroup;
+			children = (
+				0E2478E61F4DA58000784965 /* IFBaseViewController.h */,
+				0E2478E71F4DA58000784965 /* IFBaseViewController.m */,
+				0E2478E81F4DA58000784965 /* IFEditImageController.h */,
+				0E2478E91F4DA58000784965 /* IFEditImageController.m */,
+				0E2478EA1F4DA58000784965 /* IFEditImageController.xib */,
+				0E2478EB1F4DA58000784965 /* IFEditorViewController.h */,
+				0E2478EC1F4DA58000784965 /* IFEditorViewController.m */,
+				0E2478ED1F4DA58000784965 /* IFEditorViewController.xib */,
+				0E2478EE1F4DA58000784965 /* IFImageEditorController.h */,
+				0E2478EF1F4DA58000784965 /* IFImageEditorController.m */,
+				0E2478F01F4DA58000784965 /* IFTextViewController.h */,
+				0E2478F11F4DA58000784965 /* IFTextViewController.m */,
+				0E2478F21F4DA58000784965 /* IFTextViewController.xib */,
+				0E2478F31F4DA58000784965 /* Models */,
+				0E2478F61F4DA58000784965 /* Utils */,
+				0E2478FF1F4DA58000784965 /* Views */,
+			);
+			path = ImageFilter;
+			sourceTree = "<group>";
+		};
+		0E2478F31F4DA58000784965 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E2478F41F4DA58000784965 /* IFImagePropertyModel.h */,
+				0E2478F51F4DA58000784965 /* IFImagePropertyModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0E2478F61F4DA58000784965 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0E2478F71F4DA58000784965 /* IFColorMatrix.h */,
+				0E2478F81F4DA58000784965 /* IFFilterUtils.h */,
+				0E2478F91F4DA58000784965 /* IFFilterUtils.m */,
+				0E2478FA1F4DA58000784965 /* IFImageEditor.h */,
+				0E2478FB1F4DA58000784965 /* IFImageUtils.h */,
+				0E2478FC1F4DA58000784965 /* IFImageUtils.m */,
+				0E2478FD1F4DA58000784965 /* IFTextUtils.h */,
+				0E2478FE1F4DA58000784965 /* IFTextUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0E2478FF1F4DA58000784965 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E2479001F4DA58000784965 /* IFEditImageView.h */,
+				0E2479011F4DA58000784965 /* IFEditImageView.m */,
+				0E2479021F4DA58000784965 /* IFEditImageView.xib */,
+				0E2479031F4DA58000784965 /* IFEditView.h */,
+				0E2479041F4DA58000784965 /* IFEditView.m */,
+				0E2479051F4DA58000784965 /* IFEditView.xib */,
+				0E2479061F4DA58000784965 /* IFFilterToolCell.h */,
+				0E2479071F4DA58000784965 /* IFFilterToolCell.m */,
+				0E2479081F4DA58000784965 /* IFFilterToolCell.xib */,
+				0E2479091F4DA58000784965 /* IFImageClipperView.h */,
+				0E24790A1F4DA58000784965 /* IFImageClipperView.m */,
+				0E24790B1F4DA58000784965 /* IFImageCollectionCell.h */,
+				0E24790C1F4DA58000784965 /* IFImageCollectionCell.m */,
+				0E24790D1F4DA58000784965 /* IFImageCollectionCell.xib */,
+				0E24790E1F4DA58000784965 /* IFImageEditorToolView.h */,
+				0E24790F1F4DA58000784965 /* IFImageEditorToolView.m */,
+				0E2479101F4DA58000784965 /* IFImageEditorToolView.xib */,
+				0E2479111F4DA58000784965 /* IFImageView.h */,
+				0E2479121F4DA58000784965 /* IFImageView.m */,
+				0E2479131F4DA58000784965 /* IFTextView.h */,
+				0E2479141F4DA58000784965 /* IFTextView.m */,
+				0E2479151F4DA58000784965 /* YBPhotoCutView.h */,
+				0E2479161F4DA58000784965 /* YBPhotoCutView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0ED528521EFBA8B600D5E511 /* Tweakable Filters */ = {
 			isa = PBXGroup;
 			children = (
@@ -407,28 +554,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E24792B1F4DA58000784965 /* IFImageCollectionCell.xib in Resources */,
+				0E2479191F4DA58000784965 /* IFEditImageController.xib in Resources */,
 				0E2478D21F4D848B00784965 /* VideoController.xib in Resources */,
 				0E2478CD1F4D848B00784965 /* as_VideoSendIcon@2x.png in Resources */,
 				0E2478C91F4D848B00784965 /* as_placeholder@2x.png in Resources */,
 				0E2478CB1F4D848B00784965 /* as_playBtn_press@2x.png in Resources */,
-				0E24787B1F4D702A00784965 /* 666.jpg in Resources */,
 				0E0E180F1EFA40AC001E4EDC /* LaunchScreen.storyboard in Resources */,
 				0E2478B61F4D848B00784965 /* AssetBottomView.xib in Resources */,
 				0E0E180C1EFA40AC001E4EDC /* Assets.xcassets in Resources */,
 				0E2478D01F4D848B00784965 /* VideoBottomView.xib in Resources */,
+				0E2479241F4DA58000784965 /* IFEditImageView.xib in Resources */,
 				0E2478C81F4D848B00784965 /* as_photo_sel_small@2x.png in Resources */,
 				0E2478B81F4D848B00784965 /* AssetCollectionCell.xib in Resources */,
 				0E2478CC1F4D848B00784965 /* as_takePhotos@2x.png in Resources */,
 				0E2478C51F4D848B00784965 /* as_icon_back@3x.png in Resources */,
 				0E2478BB1F4D848B00784965 /* AssetTopView.xib in Resources */,
+				0E2479261F4DA58000784965 /* IFEditView.xib in Resources */,
 				0E2478C41F4D848B00784965 /* as_icon_back@2x.png in Resources */,
 				0E2478E11F4D9D1400784965 /* SelectImageController.xib in Resources */,
 				0E2478CA1F4D848B00784965 /* as_playBtn_normal@2x.png in Resources */,
+				0E24792D1F4DA58000784965 /* IFImageEditorToolView.xib in Resources */,
 				0E2478B31F4D848B00784965 /* AlbumListCell.xib in Resources */,
 				0E2478C71F4D848B00784965 /* as_photo_sel_big@2x.png in Resources */,
 				0E2478BE1F4D848B00784965 /* ASTakePhotoCell.xib in Resources */,
+				0E2479281F4DA58000784965 /* IFFilterToolCell.xib in Resources */,
+				0E24791E1F4DA58000784965 /* IFTextViewController.xib in Resources */,
 				0E2478C11F4D848B00784965 /* CollectionViewCell.xib in Resources */,
 				0E2478C61F4D848B00784965 /* as_photo_def@2x.png in Resources */,
+				0E24791B1F4DA58000784965 /* IFEditorViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,18 +593,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E24792C1F4DA58000784965 /* IFImageEditorToolView.m in Sources */,
 				0E2478E41F4D9DDD00784965 /* CommonTools.m in Sources */,
+				0E2479271F4DA58000784965 /* IFFilterToolCell.m in Sources */,
+				0E2479221F4DA58000784965 /* IFTextUtils.m in Sources */,
 				0E2478D11F4D848B00784965 /* VideoController.m in Sources */,
 				0ED528581EFBA8B600D5E511 /* FilterListViewController.m in Sources */,
 				0E2478BF1F4D848B00784965 /* BaseController.m in Sources */,
+				0E2479171F4DA58000784965 /* IFBaseViewController.m in Sources */,
+				0E24792A1F4DA58000784965 /* IFImageCollectionCell.m in Sources */,
 				0E2478DF1F4D9D1400784965 /* RootTabBarController.m in Sources */,
+				0E24791D1F4DA58000784965 /* IFTextViewController.m in Sources */,
 				0E2478B11F4D848B00784965 /* AlbumController.m in Sources */,
+				0E24792F1F4DA58000784965 /* IFTextView.m in Sources */,
 				0E2478CF1F4D848B00784965 /* VideoBottomView.m in Sources */,
+				0E24791A1F4DA58000784965 /* IFEditorViewController.m in Sources */,
+				0E2479301F4DA58000784965 /* YBPhotoCutView.m in Sources */,
+				0E2479231F4DA58000784965 /* IFEditImageView.m in Sources */,
+				0E24791C1F4DA58000784965 /* IFImageEditorController.m in Sources */,
 				0ED5285C1EFBA8BB00D5E511 /* PhotoFilterViewController.m in Sources */,
+				0E2479201F4DA58000784965 /* IFFilterUtils.m in Sources */,
 				0E2478C21F4D848B00784965 /* FileUtility.m in Sources */,
 				0E0E183F1EFA6196001E4EDC /* LabeledSliderView.m in Sources */,
 				0E2478B51F4D848B00784965 /* AssetBottomView.m in Sources */,
 				0E2478BC1F4D848B00784965 /* AssetViewController.m in Sources */,
+				0E24791F1F4DA58000784965 /* IFImagePropertyModel.m in Sources */,
+				0E2479291F4DA58000784965 /* IFImageClipperView.m in Sources */,
 				0E2478CE1F4D848B00784965 /* PhotoController.m in Sources */,
 				0ED5285F1EFBAB9400D5E511 /* PhotoFilterCollectionViewCell.m in Sources */,
 				0E0E18381EFA54D5001E4EDC /* FilteredImageView.m in Sources */,
@@ -465,9 +633,13 @@
 				0E2478B71F4D848B00784965 /* AssetCollectionCell.m in Sources */,
 				0E0E182A1EFA506C001E4EDC /* ScalarFilterParameter.m in Sources */,
 				0E2478B91F4D848B00784965 /* AssetSelectionUtil.m in Sources */,
+				0E2479211F4DA58000784965 /* IFImageUtils.m in Sources */,
+				0E2479181F4DA58000784965 /* IFEditImageController.m in Sources */,
 				0E0E183C1EFA5DDF001E4EDC /* ParameterAdjustmentView.m in Sources */,
 				0E2478C01F4D848B00784965 /* CollectionViewCell.m in Sources */,
+				0E24792E1F4DA58000784965 /* IFImageView.m in Sources */,
 				0ED528571EFBA8B600D5E511 /* FilterDetailViewController.m in Sources */,
+				0E2479251F4DA58000784965 /* IFEditView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

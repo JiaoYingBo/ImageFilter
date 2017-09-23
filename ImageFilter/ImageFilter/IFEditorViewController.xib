@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IFEditorViewController">
+            <connections>
+                <outlet property="titleLabel" destination="XEe-Ws-cz9" id="Lql-Zc-N79"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uD4-Ss-mqu">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qoj-R4-gYu">
+                            <rect key="frame" x="0.0" y="0.0" width="70" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="0C1-Jy-B5I"/>
+                            </constraints>
+                            <state key="normal" title="取消">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelClick:" destination="-1" eventType="touchUpInside" id="6Rd-mh-558"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="编辑图片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEe-Ws-cz9">
+                            <rect key="frame" x="152.5" y="12" width="69.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNa-eU-6xw">
+                            <rect key="frame" x="305" y="0.0" width="70" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="WKS-bk-xWt"/>
+                            </constraints>
+                            <state key="normal" title="继续">
+                                <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="continueClick:" destination="-1" eventType="touchUpInside" id="e9q-rb-3gS"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Qoj-R4-gYu" secondAttribute="bottom" id="7Tk-Zw-DeG"/>
+                        <constraint firstItem="Qoj-R4-gYu" firstAttribute="top" secondItem="uD4-Ss-mqu" secondAttribute="top" id="Ew4-wo-Eij"/>
+                        <constraint firstAttribute="trailing" secondItem="QNa-eU-6xw" secondAttribute="trailing" id="GQ8-bJ-u9h"/>
+                        <constraint firstItem="QNa-eU-6xw" firstAttribute="top" secondItem="uD4-Ss-mqu" secondAttribute="top" id="LIj-Qt-p4r"/>
+                        <constraint firstAttribute="height" constant="44" id="SmU-wL-49O"/>
+                        <constraint firstAttribute="bottom" secondItem="QNa-eU-6xw" secondAttribute="bottom" id="agY-si-NId"/>
+                        <constraint firstItem="XEe-Ws-cz9" firstAttribute="centerX" secondItem="uD4-Ss-mqu" secondAttribute="centerX" id="f4f-gp-n4d"/>
+                        <constraint firstItem="XEe-Ws-cz9" firstAttribute="centerY" secondItem="uD4-Ss-mqu" secondAttribute="centerY" id="vWB-0r-sxp"/>
+                        <constraint firstItem="Qoj-R4-gYu" firstAttribute="leading" secondItem="uD4-Ss-mqu" secondAttribute="leading" id="wAn-Zm-aC2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="uD4-Ss-mqu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="C8c-Q3-OFp"/>
+                <constraint firstItem="uD4-Ss-mqu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GIa-5P-mQo"/>
+                <constraint firstAttribute="trailing" secondItem="uD4-Ss-mqu" secondAttribute="trailing" id="IFp-kt-2zg"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+</document>

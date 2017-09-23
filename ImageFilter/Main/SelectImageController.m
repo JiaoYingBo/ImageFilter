@@ -24,7 +24,7 @@
     ImagePickerController *picker = [[ImagePickerController alloc] init];
     picker.pickerDelegate = self;
     picker.maxImagesCount = 1;
-    picker.mediaType = ASFetchMediaTypeDefault;
+    picker.mediaType = ASFetchMediaTypeImage;
     [self presentViewController:picker animated:YES completion:nil];
 }
 

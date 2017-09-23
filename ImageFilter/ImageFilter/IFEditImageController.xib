@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IFEditImageController">
+            <connections>
+                <outlet property="titleLabel" destination="tBo-k6-ENR" id="6RD-KC-KvS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpk-lV-ZVS">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93l-Ep-cYz">
+                            <rect key="frame" x="0.0" y="0.0" width="70" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="lwE-ZX-kJe"/>
+                                <constraint firstAttribute="height" constant="44" id="q3G-Mx-oYX"/>
+                            </constraints>
+                            <state key="normal" title="取消">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="navgationBtnClick:" destination="-1" eventType="touchUpInside" id="gJq-ZR-cUY"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBo-k6-ENR">
+                            <rect key="frame" x="187.5" y="22.5" width="0.0" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgN-29-DX0">
+                            <rect key="frame" x="305" y="0.0" width="70" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="Pw0-ay-AAX"/>
+                                <constraint firstAttribute="height" constant="44" id="WV2-2X-nBx"/>
+                            </constraints>
+                            <state key="normal" title="继续">
+                                <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="navgationBtnClick:" destination="-1" eventType="touchUpInside" id="CBt-Rq-Rbp"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="OgN-29-DX0" firstAttribute="top" secondItem="Cpk-lV-ZVS" secondAttribute="top" id="3Eg-5U-WM1"/>
+                        <constraint firstItem="tBo-k6-ENR" firstAttribute="centerX" secondItem="Cpk-lV-ZVS" secondAttribute="centerX" id="Mnv-zB-NLn"/>
+                        <constraint firstItem="tBo-k6-ENR" firstAttribute="centerY" secondItem="Cpk-lV-ZVS" secondAttribute="centerY" id="NrR-wd-W8P"/>
+                        <constraint firstItem="93l-Ep-cYz" firstAttribute="leading" secondItem="Cpk-lV-ZVS" secondAttribute="leading" id="Urv-oo-WNR"/>
+                        <constraint firstAttribute="trailing" secondItem="OgN-29-DX0" secondAttribute="trailing" id="dfd-5C-4FE"/>
+                        <constraint firstItem="93l-Ep-cYz" firstAttribute="top" secondItem="Cpk-lV-ZVS" secondAttribute="top" id="klR-sX-AdR"/>
+                        <constraint firstAttribute="height" constant="44" id="tpZ-VK-Bej"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Cpk-lV-ZVS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Bjv-lH-0wW"/>
+                <constraint firstItem="Cpk-lV-ZVS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Q1d-dn-TvH"/>
+                <constraint firstAttribute="trailing" secondItem="Cpk-lV-ZVS" secondAttribute="trailing" id="zc4-BA-LJb"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
